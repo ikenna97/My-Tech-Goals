@@ -1,0 +1,63 @@
+style.css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+h2, a {
+  display: flex;
+  justify-content:space-between;
+  margin-top: 5px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  main {
+    padding: 10px;
+  }
+  section {
+    padding: 10px;
+  }
+}
+
+
+  
+  
